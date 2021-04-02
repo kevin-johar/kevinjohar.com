@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap";
+@import "~@fortawesome/fontawesome-free";
+
+@font-face {
+  font-family: YourFontFamily;
+  src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap') format("truetype");
+}
+
+* {
+  font-family: 'Raleway', 'arial', sans-serif;
+}
