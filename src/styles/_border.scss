@@ -1,0 +1,49 @@
+@import "variables";
+
+.border {
+  @extend .border-thin;
+}
+
+.border-thin {
+  border-width: $border-width-thin;
+}
+
+.border-medium {
+  border-width: $border-width-medium;
+}
+
+.border-thick {
+  border-width: $border-width-thick !important;
+}
+
+.border-color-primary {
+  border-color: $color-primary !important;
+}
+
+.border-color-secondary-light {
+  border-color: $color-secondary-light !important;
+}
+
+.border-color-secondary-dark {
+  border-color: $color-secondary-dark !important;
+}
+
+.border-color-dark {
+  border-color: $color-dark !important;
+}
+
+.border-color-light {
+  border-color: $color-light !important;
+}
+
+.border-color-neutral {
+  border-color: $color-neutral !important;
+}
+
+.border-color-neutral-dark {
+  border-color: $color-neutral-dark !important;
+}
+
+.border-color-border {
+  border-color: $color-border !important;
+}

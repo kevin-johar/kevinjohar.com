@@ -1,0 +1,31 @@
+.w-fit-content {
+  width: fit-content;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.overflow-wrap-normal {
+  overflow-wrap: normal;
+}
+.overflow-wrap-anywhere {
+  overflow-wrap: anywhere;
+}
+.overflow-wrap-break-word {
+  overflow-wrap: break-word;
+}
+
+.remove-scrollbars {
+  overflow: hidden;
+  -ms-overflow-style: none;
+}
