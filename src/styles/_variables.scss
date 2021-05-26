@@ -1,0 +1,27 @@
+// Fonts
+$font-family-sans-serif: 'Raleway', 'arial', sans-serif;
+
+// Font Weights
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-extra-bold: 800;
+
+// Colors
+$color-primary: #00BBFF; /* blue */
+$color-secondary-light: #FFBB3C; /* yellow */
+$color-secondary-dark: #E61600; /* red */
+$color-dark: #282837; /* dark */
+$color-light: #FFFFFF; /* white */
+$color-neutral: #EEEEEE; /* grey */
+$color-neutral-medium: #d0d0d0; /* grey */
+$color-neutral-dark: #5D5D5D; /* dark grey */
+$color-border: rgba($color-dark, 0.125); /* light grey */
+$color-placeholder: rgba($color-dark, 0.3);
+$color-placeholder-light: rgba($color-light, 0.3);
+
+// Borders
+$border-width-thin: 1px;
+$border-width-medium: 3px;
+$border-width-thick: 5px;
