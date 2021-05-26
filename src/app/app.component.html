@@ -1,25 +1,27 @@
 <div class="container">
-  <div class="row">
-    <div class="col">
-      <div class="d-flex flex-column justify-content-center align-items-center text-center" style="height: 100vh">
-        <img src="./assets/me.jpg" alt="It's a me, mario" class="mb-3" style="object-fit: cover; width: 150px">
-        <h1 class="font-italic font-weight-bold" >Kevin Johar</h1>
-        <p class="mb-0">Available for summer 2021 SWE positions</p>
-        <a [href]="resumeLink" target="_blank" style="color: black; width: fit-content"><u>my resume</u></a>
-      </div>
-      <div class="d-flex flex-row justify-content-center position-sticky" style='bottom: 30px'>
-        <a href="mailto:kevin.s.johar@gmail.com" class="btn btn-link" style="color: black">
-          <i class="fas fa-envelope fa-2x mx-4"></i>
-        </a>
+    <div class="row">
+        <div class="col">
+            <div class="d-flex flex-lg-row flex-column">
+                <div>
+                    <a [routerLink]="['']" class="btn btn-link">home</a>
+                    <a [routerLink]="['projects']" class="btn btn-link">projects</a>
+                    <a [href]="resumeLink" target="_blank" class="btn btn-link">my resume</a>
+                </div>
+                <div>
+                    <a href="mailto:kevin.s.johar@gmail.com" class="btn btn-link" style="color: black">
+                        <i class="fas fa-envelope fa-1x mx-1"></i>
+                    </a>
 
-        <a href="https://github.com/kevin-johar" target="_blank" class="btn btn-link" style="color: black">
-          <i class="fab fa-github fa-2x mx-4"></i>
-        </a>
+                    <a href="https://github.com/kevin-johar" target="_blank" class="btn btn-link" style="color: black">
+                        <i class="fab fa-github fa-1x mx-1"></i>
+                    </a>
 
-        <a href="https://www.linkedin.com/in/kevin-johar/" target="_blank" class="btn btn-link" style="color: black">
-          <i class="fab fa-linkedin-in fa-2x mx-4"></i>
-        </a>
-      </div>
+                    <a href="https://www.linkedin.com/in/kevin-johar/" target="_blank" class="btn btn-link" style="color: black">
+                        <i class="fab fa-linkedin-in fa-1x mx-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
+<router-outlet></router-outlet>

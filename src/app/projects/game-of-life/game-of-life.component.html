@@ -1,0 +1,18 @@
+<h2 style="font-size: calc(1em * 1.4)">game of life.</h2>
+<div class="border border-color-dark w-100 mb-3"></div>
+<div class="overflow-x-hidden mb-3">
+    <canvas id="canvas"
+            [width]="GameCanvas.canvasWidth"
+            [height]="GameCanvas.canvasHeight"
+            style="border:1px solid lightgrey;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+</div>
+<p>the year 2020 was a lot, to say the least. it was full of distance from others, but being closer to home. it was full of sickness but also an appreciation for health. it was full of death but also many new lives as people had more time to think inwards and consider what they want their life to be all about.</p>
+<p>i came across this really cool 0-player game made by a british mathematician, <a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Horton Conway</a> (1937 - 2020 💐). the game is made up of a grid of cells that can either be alive or dead. every generation the grid updates based on the following rules:</p>
+<ul>
+    <li>any living cell with 2 or 3 alive neighbours stays alive</li>
+    <li>any dead cell with 3 alive neighbours becomes alive</li>
+    <li>any other cell dies or stays dead</li>
+</ul>
+<p>this build was inspired by <a href="https://spicyyoghurt.com/tutorials/javascript/conways-game-of-life-canvas">spicy yoghurt's tutorial</a>.</p>
