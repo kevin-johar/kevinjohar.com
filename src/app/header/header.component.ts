@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  resumeLink = 'https://drive.google.com/file/d/1SdGmD8kcSPgOb4utwaPN9J1WOdiVNYym/view?usp=sharing';
+  resumeLink = 'https://drive.google.com/file/d/16Eoq4JaRvsGtdGg7sUTNrZwY71ap3ZnI/view?usp=sharing';
 
   constructor() { }
 
